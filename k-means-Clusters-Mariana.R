@@ -1,3 +1,15 @@
+# ============================================================================
+# K-means cluster analysis of Mariana Trench profiles (R, cluster/factoextra).
+# This produced figures in the peer-reviewed article:
+#   Lemenkova, P. (2019). K-means Clustering in R Libraries {cluster} and
+#   {factoextra} for Grouping Oceanographic Data.
+#   International Journal of Informatics and Applied Mathematics, 2(1), 1-26.
+#   DOI: https://doi.org/10.5281/zenodo.3457771
+#   figshare: https://doi.org/10.6084/m9.figshare.9891203
+#   HAL: https://hal.science/hal-02294056
+# Author: Polina Lemenkova | ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # ЧАСТЬ 1: делаем data.frame с геоморфологией 
 	# шаг-1. загружаем таблицу, делаем датафрейм
 MorDF <- read.csv("Morphology.csv", header=TRUE, sep = ",")
